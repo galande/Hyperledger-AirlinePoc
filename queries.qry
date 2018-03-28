@@ -1,0 +1,11 @@
+query AllFlights{
+  description: "This query will return all flights from network."
+  statement:
+    SELECT org.acme.airline.flight.Flight
+}
+
+query AllCrafts{
+  description: "This query will return all Air Crafts from network."
+  statement:
+    SELECT org.acme.airline.aircraft.Aircraft
+}

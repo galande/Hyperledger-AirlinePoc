@@ -1,0 +1,22 @@
+{
+  "name": "airpoc-network",
+  "version": "0.0.5",
+  "description": "This is just test airline poc network",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Bhavesh",
+  "email": "bgalande250@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-common": "latest",
+    "composer-connector-embedded": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  }
+}

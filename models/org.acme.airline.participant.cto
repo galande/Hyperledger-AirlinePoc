@@ -1,0 +1,32 @@
+namespace org.acme.airline.participant
+
+abstract participant ACMEParticipant identified by participantKey {
+  o String participantKey
+  o Contact contact
+  o Address address optional
+}
+
+participant ACMENetworkAdmin extends ACMEParticipant{
+}
+
+participant ACMEPersonal extends ACMEParticipant{
+  o String department
+}
+
+participant B2BPartner extends ACMEParticipant{
+}
+
+concept Contact {
+  o String firstName
+  o String lastName
+  o String email
+  o String mobileNo
+}
+
+concept Address {
+  o String country
+  o String state
+  o String district
+  o String city
+  o String postalCode
+}
